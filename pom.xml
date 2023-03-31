@@ -11,8 +11,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <distributionManagement>
     <repository>
         <id>release</id>
-        <name>artifactory-releases</name>
-        <url>http://34.125.146.138:8081/artifactory/devops-local</url> <!--Change the ip and repository-->
+        <name>maven-demo</name>
+        <url>http://34.125.146.138:8081/artifactory/maven-demo</url> <!--Change the ip and repository-->
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
