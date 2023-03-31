@@ -10,14 +10,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 <distributionManagement>
     <repository>
-        <id>release</id>
+        <id>maven-demo</id>
         <name>maven-demo</name>
-        <url>http://34.125.146.138:8081/artifactory/maven-demo</url> <!--Change the ip and repository-->
+        <url>http://34.125.146.138:8081/artifactory/maven-demo</url> <!--Change the ID, IP and repository-->
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>artifactory-snapshots</name>
-        <url>http://34.125.146.138:8081/artifactory/devops-local</url> <!--Change the ip and repository-->
+        <url>http://34.125.146.138:8081/artifactory/devops-local</url> <!--Change the ID ip and repository-->
     </snapshotRepository>
 </distributionManagement>
 <build>
