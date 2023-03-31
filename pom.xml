@@ -3,7 +3,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <modelVersion>4.0.0</modelVersion>
 <groupId>com.c4clouds</groupId>
 <artifactId>hello-world-war</artifactId>
-<version>0.4</version>
+<version>0.5</version>
 <packaging>war</packaging>
 <name>Hello World Web Application Repository</name>
 <description>Simplest possible Java Webapp</description>
@@ -12,12 +12,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
     <repository>
         <id>release</id>
         <name>artifactory-releases</name>
-        <url>http://34.70.97.76:8081/artifactory/devops-local</url> <!--Change the ip and repository-->
+        <url>http://34.125.146.138:8081/artifactory/devops-local</url> <!--Change the ip and repository-->
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>artifactory-snapshots</name>
-        <url>http://34.70.97.76:8081/artifactory/devops-local</url> <!--Change the ip and repository-->
+        <url>http://34.125.146.138:8081/artifactory/devops-local</url> <!--Change the ip and repository-->
     </snapshotRepository>
 </distributionManagement>
 <build>
